@@ -10,38 +10,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '来自娃娃们的日常',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        由 Kigurumi 玩家收录、整理的一手资料，原汁原味 🍹！
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '收录更多娃娃',
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        收集、整理更多，来自娃娃们认为质量较优的娃娃！🌟
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '帮助更多娃娃',
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        本站仅为收集资料开设，开源至 Github！随时收录，欢迎更多娃娃参与建设！🙏（欢迎来投稿资料换站点图片）
       </>
     ),
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({ title, image, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
